@@ -9,23 +9,40 @@ on the subsequent lines, the name of each destination searched for, one per line
 Examples:
 
 Input:
+
     6
+    
     Barcelona
+    
     Edinburgh
+    
     Barcelona
+    
     Miami
+    
     Miami
+    
     Barcelona
+    
 Output:
+
     Barcelona
+    
 Input:
     5
+    
     Singapore
+    
     Bangkok
+    
     Singapore
+    
     Bangkok
+    
     Singapore
+    
 Output:
+
     Singapore Find the Most Popular Destination:
 
 Your task is to find the most popular holiday destination from a list of destinations searched for by users. You are given as standard input the integer size of the list, followed by the names of the destinations themselves. The input has the following format:
@@ -35,23 +52,41 @@ on the subsequent lines, the name of each destination searched for, one per line
 Examples:
 
 Input:
+
     6
+    
     Barcelona
+    
     Edinburgh
+    
     Barcelona
+    
     Miami
+    
     Miami
+    
     Barcelona
+    
 Output:
+
     Barcelona
+    
 Input:
+
     5
+    
     Singapore
+    
     Bangkok
+    
     Singapore
+    
     Bangkok
+    
     Singapore
+    
 Output:
+
     Singapore
     
     
@@ -64,9 +99,13 @@ The input is correct (there are only direct line management relations, no cycles
 Examples:
 
 Input:
+
     6
+    
     Hilary
+    
     James
+    
     Sarah Fred
     Sarah Paul
     Fred Hilary
