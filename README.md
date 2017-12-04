@@ -1,6 +1,6 @@
-# skyscanner_hackerrankquestions
+# Skyscanner HackerRank Questions
 skyscanner_hackerrank quesitons
-Question 1 : Find the Most Popular Destination:
+# Question 1 : Find the Most Popular Destination:
 
 Your task is to find the most popular holiday destination from a list of destinations searched for by users. You are given as standard input the integer size of the list, followed by the names of the destinations themselves. The input has the following format:
 
@@ -55,7 +55,7 @@ Output:
     Singapore
     
     
- Question 2: Find the Common Manager
+# Question 2: Find the Common Manager
 
 You are given as standard input the number of employees in a company, the first names of two selected employees in a company, and the direct line management relations between every employee. Each person in the company can directly line manage a maximum of 2 other employees. The input has the following format: * on the first line, the number of unique employees in the company * on the second line, the name of the first selected employee (a first name only without spaces) * on the third line, the name of the second selected employee (a first name only without spaces, guaranteed to be different from the first selected employee) * on the subsequent lines, the line management relations in the format "EmployeeX EmployeeY" - meaning EmployeeX manages EmployeeY (first names without spaces and spaces are used to separate the two names)
 
