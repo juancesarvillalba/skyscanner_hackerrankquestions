@@ -21,12 +21,12 @@ def OutputFindCommonManager(count):
          manager = relate[0]
          employee = relate[1]
          if employee == employee1[len(employee1)-1]:
-	          employee1.append(manager)
+	    employee1.append(manager)
          if employee == employee2[len(employee2)-1]:
-	          employee2.append(manager)
+	    employee2.append(manager)
      
 
-  for item in unique_employee:
-	    if item in employee1 and item in employee2:
- 	       print item
-	       break
+   for item in unique_employee:
+       if item in employee1 and item in employee2:
+ 	  print item
+	  break
