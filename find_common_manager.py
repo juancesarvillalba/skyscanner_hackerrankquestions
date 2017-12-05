@@ -14,7 +14,7 @@ def OutputFindCommonManager(count):
    relationships = list(reversed(map(lambda rel: rel.split(' '),lines[3:len(lines)-1])))
    employee1 = [selectedEmployees[0]]
    employee2 = [selectedEmployees[1]]
-   allUniqueEmployees = set(reduce(lambda a,b:a+b,relationships))
+   unique_employee_list = set(reduce(lambda a,b:a+b,relationships))
     
    for item in givenEmployees:
       for relate in relationships:
@@ -26,7 +26,7 @@ def OutputFindCommonManager(count):
 	    employee2.append(manager)
      
 
-   for item in unique_employee:
+   for item in unique_employee_list:
        if item in employee1 and item in employee2:
  	  print item
 	  break
